@@ -1,0 +1,34 @@
+#' Labor Force Participation Rate by Sex, Age, and Marital Status
+#'
+#' A curated dataset derived from International Labour Organization (ILOSTAT)
+#' database (Indicator: EAP_DWAP_SEX_AGE_MTS_RT_A). Contains annual labor force
+#' participation rates in percent across countries, broken down by sex,
+#' aggregate age groups, and aggregate marital status categories from 2015.
+#'
+#' @format A tibble with 8 variables:
+#' \describe{
+#'   \item{country}{Character. Country or territory name.}
+#'   \item{survey_source}{Character. Name of the underlying national household survey or census.}
+#'   \item{sex}{Character. Sex category ("Male", "Female", "Other").}
+#'   \item{age_group}{Character. Aggregate age band (e.g., "15--24", "25--54", "55--64"). Note: '15+' represents the total aggregate working-age population.}
+#'   \item{marital_status}{Character. Aggregated marital status ("Married / Union / Cohabiting", "Single / Widowed / Divorced").}
+#'   \item{year}{Numeric. Calendar year of the observation.}
+#'   \item{participation_rate}{Numeric. Labour force participation rate in percent.}
+#'   \item{data_status}{Character. Data quality flag or status (e.g., "Break in series", \code{NA}).}
+#' }
+#'
+#' @details
+#' The raw ILOSTAT dataset was cleaned as follows:
+#' \itemize{
+#' \item Filtered for non-missing participation rates and excluded records flagged as "Unreliable".
+#' \item Records flagged with "Break in series" (methodological updates to national household surveys) were retained to preserve longitudinal continuity.
+#' \item Retained only aggregate age bands and aggregate marital status categories.
+#' \item Removed non-specific aggregate categories including "Total" (for sex and marital status) and "Not elsewhere classified".
+#' \item Stripped category label prefixes (e.g., "Age (Aggregate bands): ") for cleaner visual plotting.
+#' }
+#'
+#' @source International Labour Organization (ILOSTAT) database:
+#' Indicator \code{EAP_DWAP_SEX_AGE_MTS_RT_A}:
+#' \url{https://ilostat.ilo.org/}
+#'
+"labor_force_marital"

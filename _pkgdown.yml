@@ -1,0 +1,20 @@
+url: https://nwat0027.github.io/ETC5523-2026/etc5523-assignment-4-nwat0027/
+template:
+  bootstrap: 5
+
+reference:
+  - title: "Data"
+    desc: "Exported ILOSTAT dataset"
+    contents:
+     - labor_force_marital
+
+  - title: "Functions & Application"
+    desc: "Analytical helper functions and Shiny app launcher"
+    contents:
+      - calc_labor_gap
+      - run_app
+
+articles:
+  - title: "User Guides"
+    contents:
+      - getting-started

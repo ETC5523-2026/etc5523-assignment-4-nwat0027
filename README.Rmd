@@ -1,0 +1,61 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# genderforce
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The genderforce R package provides curated International Labour Organization (ILOSTAT) data and interactive visual tools to explore global labour force participation rates by gender, age, and marital status.
+
+## Installation
+
+You can install the development version of genderforce from [GitHub](https://github.com/) with:
+
+```{r}
+#| eval: false
+# install.packages("remotes") 
+remotes::install_github("ETC5523-2026/etc5523-assignment-4-nwat0027")
+```
+## Dataset Overview 
+The package includes the `labor_force_marital` dataset, containing annual labour force participation rates (%) across various countries from 2015 onwards:
+```{r example-data} 
+#| message: false
+#| warning: false
+library(genderforce) 
+library(dplyr)
+
+# View dataset structure 
+glimpse(labor_force_marital) 
+```
+
+## Example: Calculating the Gender Participation Gap
+The package exports `calc_labor_gap()` to summarize male versus female participation rates and calculate the gender gap (percentage points) across marital status categories:
+
+```{r example-calc} 
+# Calculate gender gap for Australia in prime working age (25-54) 
+
+calc_labor_gap(target_country = "Australia", target_age = "25-54") 
+```
+
+## Interactive Explorer (Shiny App)
+`genderforce` comes with a built-in interactive Shiny application that features dynamic country/age dropdowns, year range sliders, trend visualisations, and an executive summary card.
+
+To launch the app: 
+```{r}
+#| eval: false
+run_app() 
+```
+ ---

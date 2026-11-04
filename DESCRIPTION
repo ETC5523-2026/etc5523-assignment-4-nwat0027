@@ -1,0 +1,27 @@
+Package: genderforce
+Title: Exploring Global Labor Force Participation Gaps by Gender and Marital Status
+URL: https://nwat0027.github.io/ETC5523-2026/etc5523-assignment-4-nwat0027
+Version: 0.0.0.9000
+Authors@R: 
+    person("Nattamon", "Wattanapenpaiboon", , "nwat0027@student.monash.edu", role = c("aut", "cre"))
+Description: Provides curated ILOSTAT data and interactive Shiny visualization tools to analyze global trends in female and male labour force participation across age groups and marital status.
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports: 
+    dplyr,
+    ggplot2,
+    shiny,
+    bslib,
+    stringr,
+    glue,
+    rlang,
+    tidyr
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
