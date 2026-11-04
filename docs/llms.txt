@@ -22,8 +22,7 @@ remotes::install_github("ETC5523-2026/etc5523-assignment-4-nwat0027")
 ## Dataset Overview
 
 The package includes the `labor_force_marital` dataset, containing
-annual labour force participation rates (%) across various countries
-from 1980 onwards:
+annual labour force participation rates (%) across various countries:
 
 ``` r
 

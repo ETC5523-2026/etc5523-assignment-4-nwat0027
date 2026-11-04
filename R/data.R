@@ -3,7 +3,7 @@
 #' A curated dataset derived from International Labour Organization (ILOSTAT)
 #' database (Indicator: EAP_DWAP_SEX_AGE_MTS_RT_A). Contains annual labor force
 #' participation rates in percent across countries, broken down by sex,
-#' aggregate age groups, and aggregate marital status categories from 1980.
+#' aggregate age groups, and aggregate marital status categories.
 #'
 #' @format A tibble with 8 variables:
 #' \describe{

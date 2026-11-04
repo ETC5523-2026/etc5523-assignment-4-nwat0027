@@ -5,10 +5,7 @@ dataset_id <- "EAP_DWAP_SEX_AGE_MTS_RT_A"
 
 raw_ilo_data <- get_ilostat(
   id = dataset_id,
-  type = "label",
-  filters = list(
-    timefrom = 1980
-  )
+  type = "label"
 )
 
 
