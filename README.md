@@ -86,6 +86,8 @@ To launch the app:
 ``` r
 run_app() 
 ```
-**AI-use Declaration:** 
+
+## AI-use Declaration 
+
 In accordance with course guidelines, Gemini were utilized during the preparation of this assignment to assist with code development, package infrastructure, debugging, documentation, and content refinement. All AI-assisted suggestions, code, analysis, figures, and documentation were independently reviewed, tested, and verified by me.
 ------------------------------------------------------------------------
