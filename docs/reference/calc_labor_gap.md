@@ -19,7 +19,7 @@ calc_labor_gap(
 - data:
 
   A data frame containing labor force participation data. Defaults to
-  [`genderforce::labor_force_marital`](https://nwat0027.github.io/ETC5523-2026/etc5523-assignment-4-nwat0027/reference/labor_force_marital.md).
+  [`genderforce::labor_force_marital`](https://etc5523-2026.github.io/etc5523-assignment-4-nwat0027/reference/labor_force_marital.md).
 
 - target_country:
 

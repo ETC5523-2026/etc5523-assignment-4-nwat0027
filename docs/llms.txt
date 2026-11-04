@@ -44,7 +44,7 @@ glimpse(labor_force_marital)
 ## Example: Calculating the Gender Participation Gap
 
 The package exports
-[`calc_labor_gap()`](https://nwat0027.github.io/ETC5523-2026/etc5523-assignment-4-nwat0027/reference/calc_labor_gap.md)
+[`calc_labor_gap()`](https://etc5523-2026.github.io/etc5523-assignment-4-nwat0027/reference/calc_labor_gap.md)
 to summarize male versus female participation rates and calculate the
 gender gap (percentage points) across marital status categories:
 
@@ -90,16 +90,16 @@ run_app()
 
 Exported ILOSTAT dataset
 
-- [`labor_force_marital`](https://nwat0027.github.io/ETC5523-2026/etc5523-assignment-4-nwat0027/reference/labor_force_marital.md)
+- [`labor_force_marital`](https://etc5523-2026.github.io/etc5523-assignment-4-nwat0027/reference/labor_force_marital.md)
   : Labor Force Participation Rate by Sex, Age, and Marital Status
 
 ## Functions & Application
 
 Analytical helper functions and Shiny app launcher
 
-- [`calc_labor_gap()`](https://nwat0027.github.io/ETC5523-2026/etc5523-assignment-4-nwat0027/reference/calc_labor_gap.md)
+- [`calc_labor_gap()`](https://etc5523-2026.github.io/etc5523-assignment-4-nwat0027/reference/calc_labor_gap.md)
   : Calculate Gender Labor Force Participation Gap
-- [`run_app()`](https://nwat0027.github.io/ETC5523-2026/etc5523-assignment-4-nwat0027/reference/run_app.md)
+- [`run_app()`](https://etc5523-2026.github.io/etc5523-assignment-4-nwat0027/reference/run_app.md)
   : Launch the GenderForce Interactive Shiny Application
 
 # Articles
@@ -107,4 +107,4 @@ Analytical helper functions and Shiny app launcher
 ### User Guides
 
 - [Getting Started with
-  genderforce](https://nwat0027.github.io/ETC5523-2026/etc5523-assignment-4-nwat0027/articles/getting-started.md):
+  genderforce](https://etc5523-2026.github.io/etc5523-assignment-4-nwat0027/articles/getting-started.md):

@@ -44,7 +44,7 @@ head(labor_force_marital)
 ### Computing Gender Gaps
 
 Use
-[`calc_labor_gap()`](https://nwat0027.github.io/ETC5523-2026/etc5523-assignment-4-nwat0027/reference/calc_labor_gap.md)
+[`calc_labor_gap()`](https://etc5523-2026.github.io/etc5523-assignment-4-nwat0027/reference/calc_labor_gap.md)
 to compute percentage-point gaps between male and female participation
 rates for a specific country and age group:
 

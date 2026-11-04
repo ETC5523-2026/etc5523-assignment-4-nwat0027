@@ -44,7 +44,7 @@ glimpse(labor_force_marital)
 ## Example: Calculating the Gender Participation Gap
 
 The package exports
-[`calc_labor_gap()`](https://nwat0027.github.io/ETC5523-2026/etc5523-assignment-4-nwat0027/reference/calc_labor_gap.md)
+[`calc_labor_gap()`](https://etc5523-2026.github.io/etc5523-assignment-4-nwat0027/reference/calc_labor_gap.md)
 to summarize male versus female participation rates and calculate the
 gender gap (percentage points) across marital status categories:
 
