@@ -29,7 +29,7 @@ labor_force_marital
 A curated dataset derived from International Labour Organization (ILOSTAT)
 database (Indicator: EAP_DWAP_SEX_AGE_MTS_RT_A). Contains annual labor force
 participation rates in percent across countries, broken down by sex,
-aggregate age groups, and aggregate marital status categories from 2015.
+aggregate age groups, and aggregate marital status categories from 1980.
 }
 \details{
 The raw ILOSTAT dataset was cleaned as follows:

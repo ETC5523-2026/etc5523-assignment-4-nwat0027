@@ -32,7 +32,7 @@ You can install the development version of genderforce from [GitHub](https://git
 remotes::install_github("ETC5523-2026/etc5523-assignment-4-nwat0027")
 ```
 ## Dataset Overview 
-The package includes the `labor_force_marital` dataset, containing annual labour force participation rates (%) across various countries from 2015 onwards:
+The package includes the `labor_force_marital` dataset, containing annual labour force participation rates (%) across various countries from 1980 onwards:
 ```{r example-data} 
 #| message: false
 #| warning: false
@@ -60,4 +60,8 @@ To launch the app:
 #| eval: false
 run_app() 
 ```
+ 
+## AI-Use Declaration
+In accordance with course guidelines, Gemini were utilized during the preparation of this assignment to assist with code development, package infrastructure, debugging, documentation, and content refinement. All AI-assisted suggestions, code, analysis, figures, and documentation were independently reviewed, tested, and verified by me.
+ 
  ---

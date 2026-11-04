@@ -7,7 +7,7 @@ raw_ilo_data <- get_ilostat(
   id = dataset_id,
   type = "label",
   filters = list(
-    timefrom = 2015
+    timefrom = 1980
   )
 )
 
