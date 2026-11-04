@@ -67,7 +67,7 @@ sliderInput(
                **How to Interpret this Plot:** <br>
                * **Line Comparison:** Solid/dashed lines distinguish *Married / Union / Cohabiting* from *Single / Widowed / Divorced* groups. <br>
                * **The Marital Gender Gap:** Observe whether married women show lower participation than married men (the 'marital penalty') and if that gap narrows among single individuals. <br>
-               * **Trajectory:** Steep changes over time highlight post-2015 structural or policy shifts in national workforce dynamics.
+               * **Trajectory:** Steep changes over time highlight structural or policy shifts in national workforce dynamics.
                ")
     )
     ),
